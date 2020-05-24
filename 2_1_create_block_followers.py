@@ -36,7 +36,7 @@ df = pd.DataFrame({'to': df[:, 0], 'follower_id': df[:, 1]})
 # to kolonunda takip edilen hesabın kullanıcı adı,
 # follower_id kolonunda da bu hesabı takip eden kullanıcıların id'si yer alır.
 # Takipçilerin kullanıcı isimlerini çekmek için Twitter API'si ile lookup yapman gerekli.
-# Bu da zaman maliyeti getireceği için şu an burada yok.
+# Bunun da zaman maliyeti olduğu için şu an burada yok.
 print(df.head())
 
 
