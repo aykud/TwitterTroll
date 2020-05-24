@@ -1,2 +1,2 @@
 # TwitterTroll
-Twitter'da veri derleyerek, Twitter API'si yardımıyla toplu hesap bloklama
+Twitter'daa veri derleyerek, Twitter API'si yardımıyla toplu hesap bloklama
