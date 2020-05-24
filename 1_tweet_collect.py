@@ -13,10 +13,10 @@ import GetOldTweets3 as got
 
 import time
 
-tweetCriteria = got.manager.TweetCriteria().setQuerySearch('%F0%9F%9F%A2%F0%9F%87%B9%F0%9F%87%B7')\
+tweetCriteria = got.manager.TweetCriteria().setQuerySearch('aramak_istediginiz_ifade')\
                                             .setSince("2020-05-12")\
                                             .setUntil("2020-05-13")\
-                                            .setMaxTweets(5000)\
+                                            .setMaxTweets(10000)\
                                             .setLang('tr')
 
 """ 
