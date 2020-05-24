@@ -40,7 +40,7 @@ print('Start...')
 # Yukarıda girdiğimiz kriterlere uyan tweetler "tweets" objesine alınır.
 # Bir hesabın, girdiğimiz kriterler içinde 1'den fazla tweeti varsa, listeye o kadar girer.
 tweets = got.manager.TweetManager.getTweets(tweetCriteria)
-print('Collecter!')
+print('Collected!')
 
 # Tweets objesindeki elemanları bir listenin içine alıyoruz.
 tweets_list = [[twet.username, tweet.id, tweet.permalink, tweet.date, tweet.text, tweet.hashtags, tweet.geo] for tweet in tweets]     
